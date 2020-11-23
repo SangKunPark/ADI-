@@ -1,0 +1,1 @@
+module.exports.sqlWriteInfo = "INSERT INTO fetal_information.total_fetal_information(name, heart_rate, fetal_movement) VALUES($1, $2, $3) RETURNING *";
